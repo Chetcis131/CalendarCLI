@@ -29,7 +29,7 @@ _.forEach(Array.from(year.by('months')), month => {
    
         let paddedDays = _.map(days, day => { // Transforms items in the array
         
-            let date = ' ' // TODO: Change this to output a two-digit date use day.format()
+            let date = day.format(' ') // TODO: Change this to output a two-digit date use day.format()
             
             // TODO: Highlight September 10th in color         
             // TODO: Highlight YOUR birthday in color!
